@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'CoffeeTitleFont';
+    src: url(../fonts/Betsy\ Flanagan.otf) format(opentype);
+}
+
+body {
+    background-color: crimson;
+}
+
+/* Reset default browser styles */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.headSiteHeader h1 {
+    position: absolute;
+    font-size: 6em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue;
+    font-family: 'CoffeeTitleFont';
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.mainBodyDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideMenuDiv {
+    flex: 1;
+    margin: 10px;
+    margin-top: 12rem;
+    background-color: burlywood;
+}
+
+.manyBodyPanel {
+    flex: 1;
+    background-color: beige;
+}
+
+.footerPanel {
+    
+}
